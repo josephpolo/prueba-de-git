@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+  
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: flex;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+.App {
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 700px;
+margin: 0 auto;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 50px;
+
+}
